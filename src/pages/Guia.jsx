@@ -8,6 +8,9 @@ import { roles } from '../data/testData'
 
 // Cuántos objetos de cada tipo puedes llevar
 const LIMITES = { Refugio: 1, Arma: 2, Kit: 2 }
+const API_URL = import.meta.env.DEV
+  ? 'http://localhost:3001/items'
+  : '/items.json'
 
 function Guia() {
   const [items, setItems] = useState([])
@@ -25,7 +28,7 @@ function Guia() {
   const rol = roles[rolParam]
 
   useEffect(() => {
-    fetch('http://localhost:3001/items')
+    fetch(API_URL)
       .then((respuesta) => {
         if (!respuesta.ok) throw new Error('No se pudo cargar la guía')
         return respuesta.json()
