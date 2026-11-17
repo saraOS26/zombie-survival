@@ -1,0 +1,14 @@
+{
+  "items": [
+    { "id": "1", "nombre": "Sótano reforzado", "tipo": "Refugio", "descripcion": "Oculto, con una sola entrada fácil de bloquear.", "puntos": 5, "ventaja": "Muy seguro: una sola entrada fácil de bloquear.", "desventaja": "Sin salida de emergencia si te acorralan." },
+    { "id": "2", "nombre": "Centro comercial", "tipo": "Refugio", "descripcion": "Mucha comida y suministros, pero difícil de defender.", "puntos": 3, "ventaja": "Mucha comida, ropa y suministros.", "desventaja": "Enorme y con muchas entradas, difícil de defender." },
+    { "id": "3", "nombre": "Cabaña en la montaña", "tipo": "Refugio", "descripcion": "Lejos de las ciudades, con agua cerca.", "puntos": 4, "ventaja": "Lejos de las ciudades y con agua cerca.", "desventaja": "Si te encuentran, nadie llega a ayudarte." },
+    { "id": "4", "nombre": "Azotea con barricada", "tipo": "Refugio", "descripcion": "Los zombis no suben escaleras bloqueadas.", "puntos": 4, "ventaja": "Buena vista para vigilar y escaleras fáciles de bloquear.", "desventaja": "Poco espacio y expuesta al clima." },
+    { "id": "5", "nombre": "Bate de béisbol", "tipo": "Arma", "descripcion": "Silencioso, fácil de conseguir y no necesita balas.", "puntos": 3, "ventaja": "Silencioso y no necesita balas.", "desventaja": "Obliga a pelear muy de cerca." },
+    { "id": "6", "nombre": "Arco y flechas", "tipo": "Arma", "descripcion": "Ataque a distancia y sin hacer ruido.", "puntos": 4, "ventaja": "Ataca a distancia sin hacer ruido.", "desventaja": "Requiere práctica y las flechas se acaban." },
+    { "id": "7", "nombre": "Machete", "tipo": "Arma", "descripcion": "Ligero y muy útil también para cortar y abrir paso.", "puntos": 4, "ventaja": "Ligero y sirve también para abrir paso.", "desventaja": "También obliga a pelear de cerca." },
+    { "id": "8", "nombre": "Kit de primeros auxilios", "tipo": "Kit", "descripcion": "Vendas, alcohol y medicinas básicas para heridas.", "puntos": 5, "ventaja": "Puede salvar una vida después de una herida.", "desventaja": "Se agota rápido si hay varios heridos." },
+    { "id": "9", "nombre": "Kit de comida y agua", "tipo": "Kit", "descripcion": "Latas, agua y purificador para varios días.", "puntos": 4, "ventaja": "Aguantas varios días sin salir.", "desventaja": "Pesa mucho para cargar." },
+    { "id": "10", "nombre": "Mochila de escape", "tipo": "Kit", "descripcion": "Linterna, cuerda, mapa y lo esencial para huir rápido.", "puntos": 3, "ventaja": "Todo lo esencial para huir rápido.", "desventaja": "No alcanza para quedarte mucho tiempo en un lugar." }
+  ]
+}
